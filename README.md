@@ -22,10 +22,10 @@ To run this project locally, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Anuj579/confession-site.git
+git clone https://github.com/Anuj579/birthday-site-v2.git
 
 # Navigate into the folder
-cd confession-site
+cd birthday-site-v2
 
 # Install dependencies
 npm install
