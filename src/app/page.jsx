@@ -15,7 +15,7 @@ export default function BirthdayApp() {
   const [isLoading, setIsLoading] = useState(true)
 
   const birthdayDate = new Date("2025-07-16T00:00:00")
-  const isBirthdayOver = new Date().getTime() >= birthdayDate.getTime()
+  const [isBirthdayOver, setisBirthdayOver] = useState(new Date().getTime() >= birthdayDate.getTime())
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -26,7 +26,7 @@ export default function BirthdayApp() {
 
   const screens = [
     !isBirthdayOver
-      ? <Countdown key="countdown" onComplete={() => setCurrentScreen(0)} birthdayDate={birthdayDate} />
+      ? <Countdown key="countdown" onComplete={() => setisBirthdayOver(true)} birthdayDate={birthdayDate} />
       : <Celebration key="celebration" onNext={() => setCurrentScreen(1)} onMusicStart={() => setMusicStarted(true)} />,
     <HappyBirthday key="happy" onNext={() => setCurrentScreen(2)} />,
     <PhotoGallery key="gallery" onNext={() => setCurrentScreen(3)} />,
