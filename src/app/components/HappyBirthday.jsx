@@ -5,11 +5,11 @@ import { ArrowRight } from "lucide-react"
 import { useEffect, useState } from "react"
 
 export default function HappyBirthday({ onNext }) {
-    const [balloonCount, setBalloonCount] = useState(10);
+    const [balloonCount, setBalloonCount] = useState(5);
 
     useEffect(() => {
         const updateBalloonCount = () => {
-            setBalloonCount(window.innerWidth >= 768 ? 25 : 10);
+            setBalloonCount(window.innerWidth >= 768 ? 20 : 5);
         };
 
         updateBalloonCount();
@@ -206,7 +206,7 @@ export default function HappyBirthday({ onNext }) {
                 </div>
 
                 <motion.h1
-                    className="text-5xl md:text-7xl py-1.5   md:py-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 mb-4 relative z-10"
+                    className="text-5xl md:text-7xl py-1.5  md:py-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 mb-4 relative z-10"
                     initial={{ opacity: 0, y: 50 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 1 }}
