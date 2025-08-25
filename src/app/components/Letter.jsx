@@ -11,16 +11,10 @@ export default function Letter() {
     const [currentText, setCurrentText] = useState("")
     const [showCursor, setShowCursor] = useState(true)
 
-    const letterText = `My Dearest Madam Jii,
-
-On this very special day, I want you to know how incredibly grateful I am to have you in my life. Your birthday isn't just a celebration of another year - it's a celebration of all the joy, laughter, and beautiful memories you bring to this world.
-
-You have this amazing ability to light up any room you enter, to make people smile even on their darkest days, and to spread kindness wherever you go. Your heart is pure gold, and your spirit is absolutely infectious.
-
-Thank you for being the wonderful, amazing, absolutely fantastic person that you are. The world is so much brighter because you're in it.
-
-Happy Birthday, beautiful soul! 🎂✨
-
+    const letterText = `My Dear buggu Jii,
+kahna to bohot kuch h but chhota rakhte h letter😅, sabse pahle to again very very happy birthday buggu kite saal ko ho gyo tu ab? ummm... 1999- 26 aug 2025
+(27 🫠)🧮 😯😯25 saal😯 shaadi ki umr nikal rhi h 🙈 kher main point pr aate h hmm to bday h aaj buggu ji ka or aaj k is special day pr m kahna chahta hu ki i love you so so so so ...... much buggu matlab so se bhi so much ha m shikayate krta hu but wahi baat h na buggu ki jo bhi chahiye ab tum se hi chahiye 🤗 kabhi over ho jaau to hamesha ki trah bacha samajh k maaf kr dena 😚. buggu meri life me khushiya laane k liye thanks sach me ek time pr toot chuka tha kaafi sambhalne k liye thanks mujhe chahne or itna pyaar krne k liye thanks hamesha mere sath rhna🤗🤗🤗 bhagwan kare meri umar bhi tane laag je.
+again.. Happy Birthday buggu  🎂✨
 With all my love and warmest wishes,
 Forever Yours 💕`
 
