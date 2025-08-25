@@ -11,8 +11,10 @@ import 'swiper/css/pagination'
 export default function PhotoGallery({ onNext }) {
 
     const photos = [
-        { id: 1, src: "/images/1.jpg" },
-        { id: 2, src: "/images/2.jpg" },
+        { id: 1, src: "/images/g6.jpg" },
+        { id: 2, src: "/images/g3.jpg" },
+        { id: 3, src: "/images/g4.jpg" },
+        { id: 4, src: "/images/g7.jpg" },
     ]
 
     return (
